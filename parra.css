@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: linear-gradient(to right, #000000, #2c2c2c);
+    color: #fff200;
+    padding: 20px;
+    font-family: system;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+}
+
+.title h1 {
+    font-size: 40px;
+    margin-right: 23px;
+}
+
+.logo {
+    max-height: 80px;
+}
+
+nav {
+    flex-grow: 1;
+    text-align: right;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.menu a {
+    color: #fff200;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.menu a:hover {
+    color: #00ccff;
+}
+
+.info {
+    text-align: center; /* Centra el contenido de la clase .info */
+    margin-top: 10px; /* Agrega espacio entre el header y la sección .info */
+}
+
+.info h2 {
+    font-size: 25px;
+    margin-bottom: 10px; /* Agrega espacio entre cada h2 */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+    border: 1px solid #dcdcdc; /* Cambia el color del borde */
+    border-radius: 10px; /* Aumenta el radio del borde para una apariencia más suave */
+    margin-bottom: 20px; /* Aumenta el margen inferior para más espacio entre tarjetas */
+    padding: 20px; /* Ajusta el relleno para un espaciado más uniforme */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Agrega una sombra sutil para elevar la tarjeta */
+}
+
+.card img {
+    max-width: 100%; /* Establece el ancho máximo al 100% para que la imagen se ajuste al contenedor */
+    height: auto; /* Establece la altura automática para mantener la proporción */
+    border-radius: 10px; /* Ajusta el radio del borde de la imagen para que coincida con el de la tarjeta */
+    margin-bottom: 15px; /* Reduzco el margen inferior de la imagen */
+}
+.gallery {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    flex: 0 0 calc(30% - 20px); /* Establecer el ancho de cada tarjeta */
+    max-width: calc(90% - 20px); /* Establecer el ancho máximo de cada tarjeta */
+} 
+.equipo {
+    font-family: 'Courier New', Courier, monospace; /* Cambia la fuente del elemento h3 */
+}
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px; /* Cambia la fuente del elemento p */
+}
